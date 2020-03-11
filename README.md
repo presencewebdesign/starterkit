@@ -72,6 +72,11 @@ For this, just follow these steps:
 3. Spin up your web development environment with the command `npm start`.
 4. Start coding!
 
+### Create new project
+1. Create new paths in the /components/paths.js
+2. Create a new switch statement for the project /components/projects.js, the case with become the #projectname
+3. Run the command to only build for that project. gulp watch-project --type #projectname
+
 In case you are lazy, just use this command:
 
 ```
